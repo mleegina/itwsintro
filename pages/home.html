@@ -1,8 +1,8 @@
 <div class="container react">
   <img src="img/cutlery.png" alt="logo">
   <h1>HUNGER</h1>
-  <form action="index.php" method="post">
-    <div class="col-md-4">
+  <form name="randform" action="index.php" method="post">
+    <div class="col-md-6">
     <input class="form-control" type="text" placeholder="Enter Token" id="token" name="token">
     </div>
     <div class="row">
@@ -10,7 +10,7 @@
   </br>
     <!-- <button type="submit" class="btn btn-primary">FOOD ME!</button> -->
     <a href="#/user" class="btn btn-secondary">FOOD ME!</a>
-    <a href="#/gettoken" class="btn btn-secondary">Need a Token?</a>
+    <input type="button" class="btn btn-secondary" value="Need a Token?" onClick="randomString();">&nbsp;
   </div>
   </form>
 </div>
