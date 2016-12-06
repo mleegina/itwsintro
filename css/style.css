@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-  position: absolute;
+  /*position: absolute;*/
 }
 
 .container.react{
@@ -14,6 +14,17 @@ body {
   max-width: 400px;
   padding: 40px;
 
+}
+
+.center {
+  margin: auto;
+}
+
+.brand {
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /*.vertical-center-row{
